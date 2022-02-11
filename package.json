@@ -1,0 +1,39 @@
+{
+  "name": "reactcomponents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "AED",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "react-router-dom": "^6.2.1",
+    "three": "^0.137.5",
+    "typewriter-effect": "^2.18.2"
+  },
+  "devDependencies": {
+    "react-scripts": "^3.4.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

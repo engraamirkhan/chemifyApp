@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chemify - Digitising chemistry and chemical discovery</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="main.css">
+		<style>
+			body {
+				margin: 0;
+				height: 100%;
+				overflow: hidden;
+				background-image: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
+			}
+
+			#paragraph {
+				position: absolute;
+				top: 290px;
+				right: 25px;
+				width: 30%;
+				height: 100%;
+				padding: 40px;
+				box-sizing: border-box;
+				text-align:justify;
+				text-size-adjust: auto;
+				font-family: Arial;
+			}
+
+			#topmenu {
+				position: absolute;
+				top: 10px;
+				width: 100%;
+				padding: 10px;
+				box-sizing: border-box;
+				text-align: right;
+			}
+
+			#logo {
+				position: absolute;
+				top: 20px;
+				left: 20px;
+				width: 100%;
+				padding: 0px;
+				box-sizing: border-box;
+				text-align: left;
+			}
+			#sublogo {
+				position: absolute;
+				top: 100px;
+				left: 80px;
+				width: 100%;
+				padding: 0px;
+				box-sizing: border-box;
+				text-align: left;
+			}
+	
+			#menu {
+				position: absolute;
+				bottom: 25px;
+				width: 100%;
+				padding: 10px;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+			
+
+			Button {
+				box-shadow:inset 0px 1px 0px 0px #ffffff;
+				background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+				background-color:#ffffff;
+				border-radius:6px;
+				border:1px solid #dcdcdc;
+				display:inline-block;
+				cursor:pointer;
+				color:#666666;
+				font-family:Arial;
+				font-size:15px;
+				font-weight:bold;
+				padding:6px 24px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #ffffff;
+			}
+			Button:hover {
+				background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+				background-color:#f6f6f6;
+			}
+			Button:active {
+				position:relative;
+				top:1px;
+			}
+
+			.bond {
+				width: 5px;
+				height: 10px;
+				background: #eee;
+				display: block;
+			}
+
+			#footer {
+				position: absolute;
+				bottom: 0px;
+				width: 100%;
+				padding: 10px;
+				box-sizing: border-box;
+				font-size: large;
+				text-align: center;
+				-moz-user-select: none;
+				-webkit-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+				pointer-events: none;
+				z-index: 1; /* TODO Solve this in HTML */
+			}
+
+		
+		</style>
+	</head>
+	<body>
+		<div id="container" class="col-xs-12 col-sm-6 col-md-8"></div>
+		<div id="footer" align="center"><a href="mailto:info@chemify.io" target="_blank" rel="noopener">info@chemify.io</a> © Copyright 2022 Chemify</div>
+		<div id="logo"> <a href= "/"><img width="15%" height="auto" src="./chemify-logo-transparent-bg-white-text_p.webp" alt="Logo"></a>
+		<div id="sublogo"><p style="font-size:130%;font-family:Arial" align="left">Digitising chemistry and chemical discovery</p>
+		</div></div>
+		
+		<div id="topmenu">
+			<button id="b_a" onclick="location.href='/'" type="button"> 
+				Home </button>
+			<button id="b_b" onclick="location.href='/about'" type="button"> 
+				About</button>
+			<button id="b_ab" onclick="location.href='/Contactus'" type="button"> 
+				Contact us</button>
+		</div>
+
+		<div id="paragraph"></div>
+
+		<div id="menu"></div>
+
+		<!-- Import maps polyfill -->
+		<!-- Remove this when import maps will be widely supported -->
+		<script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+
+		<div id="root" class="h-100"></div>
+	
+
+  	</body>
+
+</html>

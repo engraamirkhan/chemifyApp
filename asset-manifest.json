@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/chemifyApp/static/js/main.a4749451.chunk.js",
+    "main.js.map": "/chemifyApp/static/js/main.a4749451.chunk.js.map",
+    "runtime-main.js": "/chemifyApp/static/js/runtime-main.65b8f217.js",
+    "runtime-main.js.map": "/chemifyApp/static/js/runtime-main.65b8f217.js.map",
+    "static/js/2.50abbf9b.chunk.js": "/chemifyApp/static/js/2.50abbf9b.chunk.js",
+    "static/js/2.50abbf9b.chunk.js.map": "/chemifyApp/static/js/2.50abbf9b.chunk.js.map",
+    "index.html": "/chemifyApp/index.html",
+    "precache-manifest.04fe159d9ba05915f3dc0a01aecc49fe.js": "/chemifyApp/precache-manifest.04fe159d9ba05915f3dc0a01aecc49fe.js",
+    "service-worker.js": "/chemifyApp/service-worker.js",
+    "static/js/2.50abbf9b.chunk.js.LICENSE.txt": "/chemifyApp/static/js/2.50abbf9b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65b8f217.js",
+    "static/js/2.50abbf9b.chunk.js",
+    "static/js/main.a4749451.chunk.js"
+  ]
+}

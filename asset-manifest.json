@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/chemifyApp/static/js/main.ecc1bad8.chunk.js",
-    "main.js.map": "/chemifyApp/static/js/main.ecc1bad8.chunk.js.map",
-    "runtime-main.js": "/chemifyApp/static/js/runtime-main.65b8f217.js",
-    "runtime-main.js.map": "/chemifyApp/static/js/runtime-main.65b8f217.js.map",
-    "static/js/2.42a81d6d.chunk.js": "/chemifyApp/static/js/2.42a81d6d.chunk.js",
-    "static/js/2.42a81d6d.chunk.js.map": "/chemifyApp/static/js/2.42a81d6d.chunk.js.map",
-    "index.html": "/chemifyApp/index.html",
-    "precache-manifest.87a6e17954d252ca137fff80313f9834.js": "/chemifyApp/precache-manifest.87a6e17954d252ca137fff80313f9834.js",
-    "service-worker.js": "/chemifyApp/service-worker.js",
-    "static/js/2.42a81d6d.chunk.js.LICENSE.txt": "/chemifyApp/static/js/2.42a81d6d.chunk.js.LICENSE.txt"
+    "main.js": "/static/js/main.11154c07.chunk.js",
+    "main.js.map": "/static/js/main.11154c07.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1f53e76c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1f53e76c.js.map",
+    "static/js/2.42a81d6d.chunk.js": "/static/js/2.42a81d6d.chunk.js",
+    "static/js/2.42a81d6d.chunk.js.map": "/static/js/2.42a81d6d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.88f0d9b3b3327a56bd539cf98842f5de.js": "/precache-manifest.88f0d9b3b3327a56bd539cf98842f5de.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.42a81d6d.chunk.js.LICENSE.txt": "/static/js/2.42a81d6d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.65b8f217.js",
+    "static/js/runtime-main.1f53e76c.js",
     "static/js/2.42a81d6d.chunk.js",
-    "static/js/main.ecc1bad8.chunk.js"
+    "static/js/main.11154c07.chunk.js"
   ]
 }

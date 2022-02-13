@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/chemifyApp/precache-manifest.e7e34b5f1af25edd543f45b89155beea.js"
+  "/chemifyApp/precache-manifest.87a6e17954d252ca137fff80313f9834.js"
 );
 
 self.addEventListener('message', (event) => {
